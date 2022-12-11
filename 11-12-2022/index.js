@@ -23,11 +23,6 @@ Example input: !htrae ot emocleW
 Example output: Welcome to earth!
 */
 
-// Write a function that takes in a string and returns the reverse
-// of that string. An interviewer may want to check if you know your
-// string methods, or may want to know if you can reverse a string manually.
-// Practice both ways!
-
 function reverseString(arr) {
   const arrr = arr.split("").reverse().join("");
   return arrr;
